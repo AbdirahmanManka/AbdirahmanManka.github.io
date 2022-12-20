@@ -389,7 +389,7 @@ nav .fas{
 /*---Css query media*/
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(three.jpg);
+        background-image: none;
     }
 
     .header-text{
