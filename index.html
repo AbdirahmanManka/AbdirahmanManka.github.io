@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolo website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="ren.png"/>
+    <script src="https://kit.fontawesome.com/32fd89bb43.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        
+
+    </div>
+    <div class="container">
+        <nav>
+            <h2 class="logo">Abdirahman</h2> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            
+
+        </nav>
+        <div class="header-text">
+            <p>Computer Science Student</p>
+            <h1>Hi, I'm <span> Abdirahman </span> <br> Farah
+                From Kenya</h1>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="removed.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                <p>My name is Abdirahman Farah. I am a final year computer science student with passion for coding and solving prolebms that are meaningful to me and to others.
+                    <br>
+                    I have experience in building websites and web applications and I'm eager to join a creative, problem solving team.
+                   
+                </p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('expirience')">Expirience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li> <span>UI/UX</span><br>Designing web Interfaces </li>
+                                <li> <span>Web Development</span><br>Web App Development </li>
+                                <li> <span>App Development</span><br>Building android/ios apps </li>
+
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="expirience">
+                            <ul>
+                                <li> <span>2021-date</span><br>Web Developer at Upwork</li>
+                                <li> <span>2022</span><br>Machine Learning At IBM </li>
+                                <li> <span>2023 January-2023 April</span><br>Internship at Smart Applications</li>
+                                
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li> <span>2019-to date</span><br>Computer science at JKUAT</li>
+                                <li> <span>2020</span><br>Frontend Developer at Moringa</li>
+                                <li> <span>2022</span><br>AI and Machine Learning at IBM </li>
+                                
+                            </ul>
+                         </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Full stack developer with experience in coding websites. Proficient with HTML, CSS, JavaScript, Python,React,PHP and MySQL.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UX/UI Design</h2>
+                    <p>Enhance the usability of the user interface to increase user satisfaction. Work on linguistic and visual input to <br>
+                         translate the brand into a sophisticated and user-friendly website that communicates information fast..</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Learning mobile app development with flutter.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="adm.png" alt="">
+                    <div class="layer">
+                        <h3>Charity web app</h3>
+                        <p>This is an online website that donors can donate less fortune people in the society</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="chat.png" alt="">
+                    <div class="layer">
+                        <h3>Amaana Bank chatbot assistant</h3>
+                        <p>This is a chatbot that answers customers FAQ I built it with IBM</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                  <img src="wea.png" alt="">
+                    <div class="layer">
+                        <h3>Weather web app</h3>
+                        <p>This website shows the weather in every city</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    
+    <!--Contact-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>Abdirahman.hudayfa@gmail.ocm</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+254701257360</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/abdiraxmaanfarah.omar"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/Abdirahman2030_"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/_abdirahman_farah/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/abdirahmanmanka2030/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/AbdirahmanManka"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2 ">Download Cv</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6">Your Message</textarea>
+
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 	&#169; Abdirahman Farah 2022</p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw4XJOvg2MJH5sbnWjWCt3FSoZId30s2wiSYlH4QH2S5DMAu5bEkOkhaZkUCiQX6SVSOw/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        
+        const msg=document.getElementById("msg")
+
+ 
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
